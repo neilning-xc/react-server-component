@@ -1,0 +1,51 @@
+{
+  "name": "rsc-demo",
+  "version": "1.0.0",
+  "description": "React Server Components Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run build\"",
+    "build": "nodemon -- scripts/build.js",
+    "server": "nodemon -- --conditions=react-server server/server.js",
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "babel-loader": "^9.2.1",
+    "compression": "^1.7.4",
+    "concurrently": "^9.0.1",
+    "css-loader": "^7.1.2",
+    "express": "^4.21.0",
+    "react": "19.0.0-rc-5d19e1c8-20240923",
+    "react-dom": "19.0.0-rc-5d19e1c8-20240923",
+    "react-server-dom-webpack": "19.0.0-rc-5d19e1c8-20240923",
+    "rimraf": "^6.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "build/*"
+    ]
+  }
+}

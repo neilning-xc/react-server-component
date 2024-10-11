@@ -1,0 +1,26 @@
+{
+  "file:///Users/neil/workspace/rsc-demo/src/Count.js": {
+    "id": "./src/Count.js",
+    "chunks": [
+      "client0",
+      "client0.main.js"
+    ],
+    "name": "*"
+  },
+  "file:///Users/neil/workspace/rsc-demo/src/Layout.js": {
+    "id": "./src/Layout.js",
+    "chunks": [
+      "client1",
+      "client1.main.js"
+    ],
+    "name": "*"
+  },
+  "file:///Users/neil/workspace/rsc-demo/src/Loading.js": {
+    "id": "./src/Loading.js",
+    "chunks": [
+      "client2",
+      "client2.main.js"
+    ],
+    "name": "*"
+  }
+}

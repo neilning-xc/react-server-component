@@ -1,0 +1,26 @@
+{
+  "moduleLoading": {
+    "prefix": "auto",
+    "crossOrigin": null
+  },
+  "moduleMap": {
+    "./src/Count.js": {
+      "*": {
+        "specifier": "file:///Users/neil/workspace/rsc-demo/src/Count.js",
+        "name": "*"
+      }
+    },
+    "./src/Layout.js": {
+      "*": {
+        "specifier": "file:///Users/neil/workspace/rsc-demo/src/Layout.js",
+        "name": "*"
+      }
+    },
+    "./src/Loading.js": {
+      "*": {
+        "specifier": "file:///Users/neil/workspace/rsc-demo/src/Loading.js",
+        "name": "*"
+      }
+    }
+  }
+}
