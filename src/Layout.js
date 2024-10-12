@@ -16,11 +16,6 @@ const Layout = ({ children }) => {
     });
   };
 
-  const handleThemeClick = () => {
-    const nextTheme = !isDark;
-    setIsDark(nextTheme);
-  };
-
   return (
     <div className={isDark ? 'container dark' : 'container white'}>
       <header className="header">
